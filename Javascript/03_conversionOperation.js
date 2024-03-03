@@ -40,8 +40,42 @@ console.log(valueInNumber) // shows NaN(not a number)
 // "" => false
 // "abc" => true
 
-let number = 33
-let str = String(number)
+// let number = 33
+// let str = String(number)
 
-console.log(str);
-console.log(typeof str);
+// console.log(str);
+// console.log(typeof str);
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/3)
+// console.log(2%3)
+
+let str1 = "Rahul"
+let str2 = " Narayan"
+
+let str3 = str1+str2
+// console.log(str3)
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+
+/*  PREFIX AND POSTFIX INCREMENT
+        Postfix increment(x++) : the increment operator increments and returns the value before incrementing.
+        Prefix increment(++x) : the increment operator increments and returns the value after incrementing.
+*/
+
+let gameCounter = 100
+x = gameCounter++
+y = ++gameCounter
+console.log(x, y)
