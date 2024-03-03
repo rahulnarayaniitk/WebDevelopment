@@ -23,7 +23,7 @@ const anotherID = Symbol("123")
 // console.log(id == anotherID)
 
 const bigNumber = 123455669823238293831n
-console.log(typeof bigNumber)
+// console.log(typeof bigNumber)
 
 // Non-primitive (Reference type)
 
@@ -35,7 +35,37 @@ let myObj = {
     age: 22,
 }
 
-const myFunction = function(){
-    console.log("Hello World")
+// const myFunction = function(){
+//     console.log("Hello World")
+// }
+// console.log(typeof myFunction)
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) : Copy ; Heap (Non-Primitive) : Reference(Original)
+
+// Stack memory
+
+let myYoutubename = "rahulnarayan.com"
+
+let anotherName = myYoutubename
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anotherName)
+
+// Heap memory
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "rahul@ybl"
 }
-console.log(typeof myFunction)
+
+let userTwo = userOne
+
+userTwo.email = "rahul@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
