@@ -7,7 +7,7 @@
 
 // 7 types :String, Number, Boolean, null, undefined, Symbol, BigInt
 
-/*      JavaScript is a dynamically typed       language, which means that data types of variables are determined by the value they hold at runtime and can change throughout the program as we assign different values to them.
+/*      JavaScript is a dynamically typed language, which means that data types of variables are determined by the value they hold at runtime and can change throughout the program as we assign different values to them.
 */
 
 const score = 100
@@ -47,25 +47,25 @@ let myObj = {
 
 // Stack memory
 
-let myYoutubename = "rahulnarayan.com"
+// let myYoutubename = "rahulnarayan.com"
 
-let anotherName = myYoutubename
-anotherName = "chaiaurcode"
+// let anotherName = myYoutubename
+// anotherName = "chaiaurcode"
 
-console.log(myYoutubename)
-console.log(anotherName)
+// console.log(myYoutubename)
+// console.log(anotherName)
 
 // Heap memory
 
-let userOne = {
-    email : "user@gmail.com",
-    upi : "rahul@ybl"
-}
+// let userOne = {
+//     email : "user@gmail.com",
+//     upi : "rahul@ybl"
+// }
 
-let userTwo = userOne
+// let userTwo = userOne
 
-userTwo.email = "rahul@google.com"
+// userTwo.email = "rahul@google.com"
 
-console.log(userOne.email)
-console.log(userTwo.email)
+// console.log(userOne.email)
+// console.log(userTwo.email)
 
