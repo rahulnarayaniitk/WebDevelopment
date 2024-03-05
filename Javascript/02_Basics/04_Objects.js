@@ -71,4 +71,42 @@ users[1].email
 
 // console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+// Destructure of Object
+
+const course ={
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : Instructor} = course
+console.log(Instructor)
+
+
+// JSON is commonly used for exchanging data between a web server and a web browser, serving as a data format for APIs (Application Programming Interfaces). 
+
+// Example:
+
+// {
+//     "name": "John",
+//     "age": 30,
+//     "city": "New York",
+//     "isStudent": false,
+//     "friends": ["Alice", "Bob", "Charlie"],
+//     "address": {
+//       "street": "123 Main St",
+//       "city": "New York",
+//       "zipCode": "10001"
+//     }
+//  }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+  
