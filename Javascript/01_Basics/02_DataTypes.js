@@ -4,7 +4,7 @@
 
 // Code readability should be high
 
-console.log("Rahul")
+// console.log("Rahul")
 
 let name = "Rahul"
 let age = 21
@@ -17,17 +17,22 @@ let isLoggedIn = false
 // BigInt 
 // string = ""
 // boolean =>true/false
-// null : standalone value [indicates the absence of an object]
 // undefined => no value has been assigned [indicates the absence of a value]
 // symbol => uniqueness
 
+
 //object
+
+// null(is an object) : standalone value [indicates the absence of an object]
 
 console.log(typeof undefined) // undefined
 console.log(typeof null); // object
 
 
+// NaN :  NaN stands for Not a Number, it is a value in JavaScript used to represent an undefined or unrepresentable value
+console.log(0/0);
 console.log(typeof NaN);
+
 
 // Infinity in JS
 
