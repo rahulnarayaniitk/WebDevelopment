@@ -26,10 +26,6 @@ console.log(valueInNumber) // shows NaN(not a number)
 // console.log(value2);
 
 
-// let c = undefined
-// let value3 = Number(c)
-// console.log(typeof c);
-// console.log(value3);
 
 // "33" => 33
 // "33abc" => NaN
@@ -46,8 +42,11 @@ console.log(valueInNumber) // shows NaN(not a number)
 // console.log(str);
 // console.log(typeof str);
 
-let value = 3
-let negValue = -value
+//************************************** Operations ********************** */
+
+
+// let value = 3
+// let negValue = -value
 // console.log(negValue);
 
 
@@ -58,16 +57,18 @@ let negValue = -value
 // console.log(2/3)
 // console.log(2%3)
 
-let str1 = "Rahul"
-let str2 = " Narayan"
+// let str1 = "Rahul"
+// let str2 = " Narayan"
 
-let str3 = str1+str2
+// let str3 = str1+str2
 // console.log(str3)
+
+// Whenever JS sees string with '+' it automatically treats all operands as strings
 
 // console.log("1" + 2)
 // console.log(1 + "2")
-// console.log("1" + 2 + 2)
-// console.log(1 + 2 + "2")
+// console.log("1" + 2 + 2) => 122
+// console.log(1 + 2 + "2") => 32
 
 
 /*  PREFIX AND POSTFIX INCREMENT
@@ -75,7 +76,8 @@ let str3 = str1+str2
         Prefix increment(++x) : the increment operator increments and returns the value after incrementing.
 */
 
-let gameCounter = 100
-x = gameCounter++
-y = ++gameCounter
-console.log(x, y)
+// let gameCounter = 100
+// x = gameCounter++  // returns gameCounter then add 1 to it 
+// y = ++gameCounter // now gameCounter is 101 as it was incremented above x is 100 because gameCounter++ 
+//                   //returns 100 first then increment it
+// console.log(x, y)
