@@ -1,11 +1,12 @@
-const marvelHeros = ["thor", "ironman", "hulk"]
-const dcHeros = ["superman", "flash", "aquaman"]
+// const marvelHeros = ["thor", "ironman", "hulk"]
+// const dcHeros = ["superman", "flash", "batman"]
 
 // marvelHeros.push(dcHeros)
 // console.log(marvelHeros)
 
 // const allHeros = marvelHeros.concat(dcHeros)
 // console.log(allHeros)
+
 
 // Spread
 
@@ -25,8 +26,8 @@ const dcHeros = ["superman", "flash", "aquaman"]
 // console.log(Array.from({name : "Rahul"})) // Interesting
 
 
-let score1 = 100
-let score2 = 200
-let score3 = 300
+// let score1 = 100
+// let score2 = 200
+// let score3 = 300
 
-console.log(Array.of(score1, score2, score3))
+// console.log(Array.of(score1, score2, score3))
