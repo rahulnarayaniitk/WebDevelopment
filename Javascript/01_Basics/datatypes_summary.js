@@ -2,7 +2,7 @@
 */
 
 
-// Primitive :call by value
+//************************ Primitive :call by value **************************
 
 
 // 7 types :String, Number, Boolean, null, undefined, Symbol, BigInt
@@ -15,21 +15,23 @@ const scoreValue = 100.3
 
 const isLoggedIn = false
 const outsideTemp = null
-let userEmail
+let userEmail;
 
 const id = Symbol("123")
 const anotherID = Symbol("123")
 
-// console.log(id == anotherID)
+// console.log(id == anotherID) // false
 
 const bigNumber = 123455669823238293831n
 // console.log(typeof bigNumber)
 
-// Non-primitive (Reference type)
+
+//****************  Non-primitive (Reference type) ***************************
 
 // Array, Objects, Functions
 
 const heroes = ["shaktiman", "naagraj", "doga"]
+
 let myObj = {
     name: "rahul",
     age: 22,
@@ -38,6 +40,7 @@ let myObj = {
 // const myFunction = function(){
 //     console.log("Hello World")
 // }
+
 // console.log(typeof myFunction)
 
 
