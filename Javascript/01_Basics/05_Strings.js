@@ -1,13 +1,13 @@
-const name = "rahul"
-const repoCount = 50
+const name = "rahul" // Primitive string
+const repoCount = 20
 
 // console.log(name + repoCount + " Value")
 
-// String interpolation
+// String interpolation (backticks and placeholders)
 
-// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)
+// console.log(`Hello my name is ${name.toUpperCase()} and my repo count is ${repoCount}`)
 
-const newGame = new String ('rahul-n-com') // creates a new String object
+const newGame = new String ('rahul-n-com') // creates a new String object 
 
 // console.log(typeof name)
 // console.log(typeof newGame)
@@ -18,7 +18,8 @@ const newGame = new String ('rahul-n-com') // creates a new String object
 // String methods
 
 // console.log(newGame.length)
-// console.log(newGame.toUpperCase());
+// console.log(newGame.toUpperCase());    
+/*      Though it is string object but it is a string which is a primitive data type and thus immutable thus it will not change the actual value of newGame */
 
 // console.log(newGame.charAt(2))
 // console.log(newGame.indexOf('h'))
@@ -35,12 +36,12 @@ const newGame = new String ('rahul-n-com') // creates a new String object
 // const mood = "Happy!"
 // console.log(`I feel ${mood.repeat(2)}`)
 
-// const url = "https://mithun.com/mithun%20rajbonuth"
+const url = "https://mithun.com/mithun%20rajbonuth"
 
 // console.log(url.includes("mithun"))
 // console.log(url.replace('%20','-'))
 
-console.log(newGame.split('-'))
+// console.log(newGame.split('-'))
 
 
 
