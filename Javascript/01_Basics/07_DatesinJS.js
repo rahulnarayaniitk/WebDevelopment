@@ -1,15 +1,20 @@
 // Dates
 
-// let myDate = new Date()
+/*
+JavaScript Date objects represent a single moment in time in a platform-independent format. Date objects encapsulate an integral number that represents milliseconds since the midnight at the beginning of January 1, 1970, UTC (the epoch)
+*/
+
+let myDate = new Date()
 // console.log(myDate)
+
 // console.log(myDate.toString())
 // console.log(myDate.toDateString())
 // console.log(myDate.toISOString())
 // console.log(myDate.toJSON())
 // console.log(myDate.toLocaleDateString())
-// console.log(myDate.toLocaleString())
+// console.log(myDate.toLocaleString()) 
 
-// console.log(typeof myDate)
+// console.log(typeof myDate) 
 
 // let myCreateDate1 = new Date(2024, 2, 4)
 // console.log(myCreateDate1.toDateString())
@@ -17,7 +22,7 @@
 // let myCreateDate2 = new Date(2024, 2, 4, 5, 3)
 // console.log(myCreateDate2.toLocaleString())
 
-// let myCreateDate3 = new Date("2024-03-04") // YYYY-MM-DD
+let myCreateDate3 = new Date("2024-03-04") // YYYY-MM-DD
 // let myCreateDate3 = new Date("03-04-2024") // MM-DD-YYYY
 // console.log(myCreateDate3.toLocaleString())
 
@@ -28,13 +33,15 @@
 
 // console.log(Math.floor(Date.now()/1000)) // time in seconds
 
-let newDate = new Date()
-console.log(newDate.getMonth() + 1) // Months start from 00 : January
-console.log(newDate.getDay()) // Days start from sunday 00: sunday
+// let newDate = new Date()
+// console.log(newDate.getMonth() + 1) // Months start from 00 : January
+// console.log(newDate.getDay()) // Days start from sunday 00: sunday
 
-newDate.toLocaleString('default',{
-    weekday: "long",
+// `${newDate.getDay()} and the time`
 
-})
+// newDate.toLocaleString('default',{
+//     weekday: "long",
+
+// })
 
 
