@@ -8,7 +8,7 @@
 // console.log(balance.toFixed(2))
 
 // const otherNumber = 123.8966
-// console.log(otherNumber.toPrecision(4))
+// console.log(otherNumber.toPrecision(4)) // Returns a string
 
 // const hundreds = 10000000
 // console.log(hundreds.toLocaleString()) // according to US standards
@@ -22,7 +22,7 @@
 // console.log(Math.abs(-4))
 // console.log(Math.round(2.4))
 // console.log(Math.round(2.6))
-// console.log(Math.ceil(2.3))
+// console.log(Math.ceil(2.3)) 
 // console.log(Math.floor(2.3))
 
 // console.log(Math.min(2, 6, 9, 0, 1, -2))
@@ -35,6 +35,6 @@
 // console.log((Math.random() * 10) + 1)
 // console.log((Math.floor(Math.random() * 10)) + 1)
 
-const min = 10
-const max = 20
-console.log((Math.floor(Math.random() * (max - min + 1))) + min)
+// const min = 10
+// const max = 20
+// console.log((Math.floor(Math.random() * (max - min + 1))) + min)
