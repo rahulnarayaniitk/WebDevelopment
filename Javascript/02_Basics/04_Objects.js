@@ -86,6 +86,7 @@ const course ={
 // course.courseInstructor
 
 // const {courseInstructor : Instructor} = course
+// console.log(courseInstructor)
 // console.log(Instructor)
 
 
