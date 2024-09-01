@@ -1,9 +1,9 @@
 // const tinderUser = new Object() // singelton object
-const tinderUser = {} // non-singleton object
+// const tinderUser = {} // non-singleton object
 
-tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
-tinderUser.isLoggedIn = false
+// tinderUser.id = "123abc"
+// tinderUser.name = "Sammy"
+// tinderUser.isLoggedIn = false
 
 // console.log(tinderUser)
 
@@ -18,6 +18,8 @@ const regularUser = {
 }
 
 // console.log(regularUser.fullname.userfullname.firstname)
+
+/* *************************************** Merging objects ******************************** */
 
 const obj1 = {
     1 : "a",
@@ -42,8 +44,8 @@ const obj2 = {
 
 // Combining using spread operator
 
-// const obj3 = {...obj1, ...obj2}
-// console.log(obj3)
+const obj3 = {...obj1, ...obj2}
+console.log(obj3)
 
 // Array of objects
 
@@ -83,8 +85,8 @@ const course ={
 
 // course.courseInstructor
 
-const {courseInstructor : Instructor} = course
-console.log(Instructor)
+// const {courseInstructor : Instructor} = course
+// console.log(Instructor)
 
 
 // JSON is commonly used for exchanging data between a web server and a web browser, serving as a data format for APIs (Application Programming Interfaces). 

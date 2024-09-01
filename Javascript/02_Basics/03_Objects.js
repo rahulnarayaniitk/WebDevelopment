@@ -5,6 +5,9 @@
          => When we declare object using constructor then it is singleton i.e. it is just one object of its type
          //Object.create
 
+        i.e.,
+        let user = new Object(); // "object constructor" syntax
+        let user = {};  // "object literal" syntax
 
 */
 
