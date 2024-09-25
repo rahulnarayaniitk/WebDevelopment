@@ -15,11 +15,11 @@ if(true){
 // console.log(b);
 // console.log(c);
 
-// Global scope in console in browser is different than the global scope in code environment's node
+// NOTE : Global scope in console in browser is different than the global scope in code environment's node
 
 
 
-// Nested scope
+// ************************************* Nested scope ******************************************
 
 /*
 function one(){
